@@ -1,0 +1,9 @@
+[package]
+name = "game_mini_on_chain"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+game_mini_on_chain = "0x0"
